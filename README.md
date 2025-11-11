@@ -6,7 +6,6 @@
 
 Easily create slugs from any string. Supports many languages alphabets. See [Supported languages](#supported-languages) to check for supported languages or to help to add one.
 
-Inspired by [Lisp Web Tales](http://lispwebtales.ppenev.com/chap05.html#leanpub-auto-rewriting-the-routes).
 
 ## Usage
 ```lisp
@@ -114,10 +113,17 @@ All those things can actually be done for most of the dominant Western languages
 
 I couldn't think of a solution so far for this, but if you know a solution (even a partial one) I'd be glad to hear =].
 
+## See also
+
+- cl-str's `str:asciip-p`, `str:remove-punctuation`.
+- [cl-change-case](https://github.com/rudolfochrist/cl-change-case/) and [cl-str](https://github.com/vindarel/cl-str)'s `downcase` and other `*-case` functions using it.
+
 ## Bugs
+
 If you find any bug or inconsistency in the code, or if you find it too hard to use, please, feel free to open an issue.
 
 ## Tests
+
 This library is tested under [ABCL](https://common-lisp.net/project/armedbear/), [SBCL](http://www.sbcl.org/), [CCL](http://ccl.clozure.com/), [CLISP](http://www.clisp.org/) and [ECL](https://common-lisp.net/project/ecl/) Common Lisp implementations.
 
 To run all the defined tests, use:
@@ -130,7 +136,11 @@ To run all the defined tests, use:
 Tests are ran with [Travis CI](https://travis-ci.org/EuAndreh/cl-slug) and [Circle CI](https://circleci.com/gh/EuAndreh/cl-slug) using [cl-travis](https://github.com/luismbo/cl-travis), [CIM](https://github.com/KeenS/CIM), [cl-coveralls](https://github.com/fukamachi/cl-coveralls) and [Roswell](https://github.com/snmsts/roswell). Check it out!
 
 ## Author
+
 André Miranda.
 
+2025-present lisp-maintainers.org
+
 ## License
+
 [LLGPL](https://tldrlegal.com/license/lisp-lesser-general-public-license#fulltext).
